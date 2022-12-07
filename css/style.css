@@ -4,6 +4,9 @@
     background-color: orange;
     color: white;
     min-height: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .header-category,
