@@ -18,11 +18,13 @@ li {
     font-size: 10px;
 }
 
+.header-logo {
+    text-align: center;
+    padding-top: 10px;
+}
+
 .header-logo>img {
     height: 15px;
-    text-align: center;
-    align-self: center;
-    margin-top: 10px;
 }
 
 .header-account {
@@ -84,6 +86,19 @@ li {
     position: absolute;
     bottom: 70px;
     left: 32px;
+    color: white;
+    height: 12px;
+    width: 30px;
+    background-color: green;
+    font-size: 10px;
+    padding-left: 4px;
+    width: 58px;
+}
+
+.green-solo {
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
     color: white;
     height: 12px;
     width: 30px;
