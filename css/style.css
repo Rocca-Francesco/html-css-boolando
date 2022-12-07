@@ -1,0 +1,30 @@
+/* header/nav */
+
+.header-background {
+    background-color: orange;
+    color: white;
+    min-height: 30px;
+}
+
+.header-category,
+.header-logo,
+.header-account {
+    width: calc(900px / 3);
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    font-size: 10px;
+}
+
+.header-logo>img {
+    height: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+.header-account {
+    margin: 10px;
+    font-size: 10px;
+}
