@@ -102,3 +102,51 @@ li {
     width: 25px;
     text-align: center;
 }
+
+/* hover img */
+
+.img-top:hover {
+    position: fixed;
+    color: white;
+}
+
+.like:hover {
+    color: red;
+}
+
+/* footer */
+
+.footer-background {
+    background-color: #333;
+    min-height: 60px;
+}
+
+.produttore>h3,
+.produttore>span,
+.social>span {
+    color: white;
+}
+
+.produttore {
+    flex-grow: 2;
+    text-align: left;
+    padding-top: 15px;
+}
+
+h3 {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 10px;
+}
+
+.social {
+    padding-top: 15px;
+}
+
+.spam {
+    font-size: 10px;
+    font-weight: bold;
+}
