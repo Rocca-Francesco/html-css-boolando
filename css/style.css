@@ -21,10 +21,43 @@ li {
 .header-logo>img {
     height: 15px;
     text-align: center;
+    align-self: center;
     margin: 10px;
 }
 
 .header-account {
     margin: 10px;
     font-size: 10px;
+    text-align: right;
+}
+
+/* prodotti */
+
+.prodotto {
+    width: calc((900px / 3) - 20px);
+    margin: 30px 10px;
+}
+
+.prodotto>img {
+    width: 100%;
+}
+
+.marca {
+    font-size: 10px;
+}
+
+.nome-prodotto {
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.prezzo-ridotto {
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.prezzo-originale {
+    font-size: 10px;
+    text-decoration: line-through;
 }
